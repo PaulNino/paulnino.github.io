@@ -1,45 +1,30 @@
-/**
- * Start by hiding the checkboxes
- */
-input[type=checkbox] {
-	visibility: hidden;
-}
-/**
- * Create the slider bar
- */
-.checkboxOne {
-	width: 40px;
-	height: 10px;
-	background: #555;
-	margin: 20px 80px;
-	position: relative;
-	border-radius: 3px;
-}
-/**
- * Create the slider from the label
- */
-.checkboxOne label {
-	display: block;
-	width: 16px
-	;
-	height: 16px;
-	border-radius: 50%;
+/* Main styles */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
 
-	-webkit-transition: all .5s ease;
-	-moz-transition: all .5s ease;
-	-o-transition: all .5s ease;
-	-ms-transition: all .5s ease;
-	transition: all .5s ease;
-	cursor: pointer;
-	position: absolute;
-	top: -3px;
-	left: -3px;
-
-	background: #ccc;
+.box-with-text {
+  background-image: -webkit-linear-gradient(transparent, transparent), url(http://rack.1.mshcdn.com/media/ZgkyMDEzLzA0LzA4Lzg4L3RvZGF5aXNub3R0LjIyYWE2LmpwZwpwCXRodW1iCTk1MHg1MzQjCmUJanBn/a3c05b08/ec2/today-is-not-the-future-back-to-the-future-hoax-fools-the-web-bbb71b7a1b.jpg);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
-/**
- * Move the slider in the correct position if the checkbox is clicked
- */
-.checkboxOne input[type=checkbox]:checked + label {
-	left: 27px;
+
+/* Other styles */
+body {
+  background: #000;
+  color: #FFF;
+}
+
+.box-with-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background-repeat: repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  white-space: nowrap;
+  text-align: center;
+  text-transform: uppercase;
+  font: 26vmax/.85 Open Sans, Impact;
 }
