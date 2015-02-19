@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
 
 .box-with-text {
-  background-image: -webkit-linear-gradient(transparent, transparent), url(http://rack.1.mshcdn.com/media/ZgkyMDEzLzA0LzA4Lzg4L3RvZGF5aXNub3R0LjIyYWE2LmpwZwpwCXRodW1iCTk1MHg1MzQjCmUJanBn/a3c05b08/ec2/today-is-not-the-future-back-to-the-future-hoax-fools-the-web-bbb71b7a1b.jpg);
+  background-image: -webkit-linear-gradient(transparent, transparent), url(http://tympanus.net/codrops-playground/assets/images/posts/23145/image1.jpg);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
