@@ -1,4 +1,4 @@
-<style>
+
 ul {
     list-style-type: none; /*No dots on list*/
     }
@@ -101,5 +101,3 @@ input[type=checkbox]:checked {
 input[type=checkbox]:hover {
     /*box-shadow:0px 0px 10px #1300ff;*/
 }
-
-</style>
