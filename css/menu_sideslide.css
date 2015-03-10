@@ -118,6 +118,9 @@ body,
 	background: #000000;
 	padding: 5% 1% 1%;
 	font-size: 1.5em;
+	-webkit-box-shadow: 6px 0px 9px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 6px 0px 9px -4px rgba(0,0,0,0.75);
+	box-shadow: 6px 0px 9px -4px rgba(0,0,0,0.75);
 	-webkit-transform: translate3d(-320px,0,0);
 	transform: translate3d(-320px,0,0);
 	-webkit-transition: -webkit-transform 0.4s;
