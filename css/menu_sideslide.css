@@ -75,8 +75,8 @@ body,
 
 /* Close Button */
 .close-button {
-	width: 2em;
-	height: 2em;
+	width: 1.5em;
+	height: 1.5em;
 	position: absolute;
 	right: 1em;
 	top: 1em;
@@ -92,7 +92,7 @@ body,
 .close-button::after {
 	content: '';
 	position: absolute;
-	width: 1px;
+	width: 2px;
 	height: 100%;
 	top: 0;
 	left: 50%;
