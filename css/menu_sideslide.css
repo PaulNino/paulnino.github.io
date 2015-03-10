@@ -117,7 +117,7 @@ body,
 	height: 100%;
 	background: #000000;
 	padding: 5% 1% 1%;
-	font-size: 1.15em;
+	font-size: 1.5em;
 	-webkit-transform: translate3d(-320px,0,0);
 	transform: translate3d(-320px,0,0);
 	-webkit-transition: -webkit-transform 0.4s;
