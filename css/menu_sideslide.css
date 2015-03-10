@@ -139,8 +139,8 @@ body,
 .icon-list a {
 	display: block;
 	padding: 0.8em;
-	-webkit-transform: translate3d(0,50px,0);
-	transform: translate3d(0,50px,0);
+	-webkit-transform: translate3d(0,500px,0);
+	transform: translate3d(0,500px,0);
 }
 
 .icon-list,
