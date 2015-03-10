@@ -92,7 +92,7 @@ body,
 .close-button::after {
 	content: '';
 	position: absolute;
-	width: 2px;
+	width: 1px;
 	height: 100%;
 	top: 0;
 	left: 50%;
