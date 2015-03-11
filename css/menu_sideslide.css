@@ -6,6 +6,7 @@ body,
 	font-weight: normal;
 	font-style: normal;
 	font-family: 'codropsicons';
+	font-size: 16px;
 	src:url('../fonts/codropsicons/codropsicons.eot');
 	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
