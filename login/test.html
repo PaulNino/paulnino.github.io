@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+
+<body>
+
+<style>
+
+body {
+  background-color: #b8b8b8
+}
+
+.wrapper1 {
+    text-align: right;
+}
+
+.wrapper2 {
+    text-align: left;
+}
+
+.button1 {
+    background: url(fb.png) no-repeat;
+    width:100px;
+    height:46px;
+    position: relative;
+    top:50%;
+    margin:5px;
+
+}
+
+
+section {
+    width: 60%;
+    height: 200px;
+    background: red;
+    margin: auto;
+    padding: 10px;
+}
+div#one {
+    width: 50%;
+    height: 200px;
+    background: red;
+    float: left;
+}
+div#two {
+    margin-left: 50%;
+    height: 200px;
+    background: red;
+}
+.wrapper2 {
+    text-align: center;
+}
+</style>
+
+<section>
+    <div id="one">
+        <div class="wrapper2">
+        <form action="action_page.php">
+        <br>
+        <input type="text" name="User Name" value="User Name">
+        <br>
+        <br>
+        <input type="text" name="Password" value="Password">
+        <br><br>
+        <input type="submit" value="Login">
+        </form>
+</div>
+    </div>
+      <div id="two">
+      <div class="wrapper1">
+      <button class="button1"></button>
+      </div>
+      <div class="wrapper1">
+      <button class="button">Logga in med Twitter</button>
+</div>
+</section>
+
+</body>
