@@ -25,14 +25,45 @@
 
 /* Demo 2 */
 
+
+.box {
+    
+    width: 340px;
+    padding: 0px;
+    border: 5px rgba(255,0,0,0.5);
+    margin: 60px auto 30px;
+    background-color:rgba(255,255,255,0.5);
+    position:relative;
+
+
+
+}
+
+
+.front {
+
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  filter: url('/media/blur.svg#blur'); /* for Firefox */
+  z-index:1;
+
+}
+    
+
+
 .form-2 {
     /* Size and position */
     width: 340px;
     margin: 60px auto 30px;
     padding: 15px;
     position: relative;
+    z-index:2;
+}
 
 
+
+.inaktiv { <!--inaktiv tagg-->
 
     /* Styles */
     background-color:rgba(255,0,0,0.5);
@@ -204,6 +235,7 @@
 .form-2 input[type=submit]:active,
 .form-2 .log-twitter:active{
     top: 1px;
+
 }
 
 /* Fallback for browsers that don't support box shadows */
