@@ -174,7 +174,7 @@
 }
 
 .form-2 input[type=submit],
-.form-2 .log-twitter {
+.form-2 .facebook_button {
     /* Size and position */
     width: 49%;
     height: 38px;
@@ -189,49 +189,36 @@
     cursor: pointer;
 
     /* Font styles */
-    font-family: 'helvetica neue', Calibri, Arial, sans-serif;
+    font-family: 'lucida grande', Calibri, Arial, sans-serif;
     font-size: 14px;
     line-height: 38px; /* Same as height */
     text-align: center;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .form-2 input[type=submit] {
     margin-left: 1%;
-    background: #fbd568; /* Fallback */
-    background: -moz-linear-gradient(#fbd568, #ffb347);
-    background: -ms-linear-gradient(#fbd568, #ffb347);
-    background: -o-linear-gradient(#fbd568, #ffb347);
-    background: -webkit-gradient(linear, 0 0, 0 100%, from(#fbd568), to(#ffb347));
-    background: -webkit-linear-gradient(#fbd568, #ffb347);
-    background: linear-gradient(#fbd568, #ffb347);
-    border: 1px solid #f4ab4c;
-    color: #996319;
+    background: #4EB700; /* Fallback */
+    background: -moz-linear-gradient(#4EB700, #4EB700);
+    background: -ms-linear-gradient(#4EB700, #4EB700);
+    background: -o-linear-gradient(#4EB700, #4EB700);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#4EB700), to(#4EB700));
+    background: -webkit-linear-gradient(#4EB700, #4EB700);
+    background: linear-gradient(#4EB700, #4EB700);
+    border: 1px solid #4EB700;
+    color: #ffffff;
 }
 
-.form-2 .log-twitter {
-    margin-right: 1%;
-    background: #34a5cf; /* Fallback */
-    background: -moz-linear-gradient(#34a5cf, #2a8ac4);
-    background: -ms-linear-gradient(#34a5cf, #2a8ac4);
-    background: -o-linear-gradient(#34a5cf, #2a8ac4);
-    background: -webkit-gradient(linear, 0 0, 0 100%, from(#34a5cf), to(#2a8ac4));
-    background: -webkit-linear-gradient(#34a5cf, #2a8ac4);
-    background: linear-gradient(#34a5cf, #2a8ac4);
-    border: 1px solid #2b8bc7;
-    color: #ffffff;
-    text-decoration: none;
-}
 
 .form-2 input[type=submit]:hover,
-.form-2 .log-twitter:hover {
+.form-2 .facebook_button:hover {
     box-shadow: 
         inset 0 1px rgba(255,255,255,0.3), 
         inset 0 20px 40px rgba(255,255,255,0.15);
 }
 
 .form-2 input[type=submit]:active,
-.form-2 .log-twitter:active{
+.form-2 .facebook_button:active{
     top: 1px;
 
 }
@@ -241,7 +228,7 @@
     background: #ffb347;
 }
 
-.no-boxshadow .form-2 .log-twitter:hover {
+.no-boxshadow .form-2 .facebook_button:hover {
     background: #2a8ac4;
 }
 
