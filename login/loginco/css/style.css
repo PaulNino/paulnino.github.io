@@ -83,7 +83,7 @@
     border-bottom: 1px solid #919191;
     border-top: 1px solid #919191;
     padding-top: 8px;
-    box-shadow: 0 1px 0 rgba(255,255,255,0.8);
+    
 }
 
 .form-2 h1 .log-in,
@@ -100,16 +100,16 @@
 }    
 
 .form-2 h1 .log-in {
-    color: #919191;
+    color: #ffffff;
     padding-right: 2px;
 }
 
 .form-2 h1 .eller {
-    color:#919191;
+    color:#ffffff;
 }
 
 .form-2 h1 .sign-up {
-    color: #919191;
+    color: #ffffff;
     padding-left: 2px;
 }
 
@@ -117,7 +117,6 @@
     width: 50%;
     float: left;
     padding-top: 15px;
-    border-top: 1px solid rgba(255,255,255,1);
 }
 
 .form-2 .float:first-of-type {
