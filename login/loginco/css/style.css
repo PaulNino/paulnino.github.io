@@ -52,6 +52,7 @@
 
 .logo {
 
+
     width: 70%;
     padding-left: 30%;
     padding-right: auto;
@@ -75,11 +76,13 @@
 }
 
 .form-2 h1 {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: bold;
     color: #bdb5aa;
     padding-bottom: 8px;
-    border-bottom: 1px solid #EBE6E2;
+    border-bottom: 1px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    padding-top: 8px;
     box-shadow: 0 1px 0 rgba(255,255,255,0.8);
 }
 
@@ -97,7 +100,7 @@
 }    
 
 .form-2 h1 .log-in {
-    color: #000000;
+    color: #ffffff;
     padding-right: 2px;
 }
 
@@ -106,7 +109,7 @@
 }
 
 .form-2 h1 .sign-up {
-    color: #1B4298;
+    color: #ffffff;
     padding-left: 2px;
 }
 
@@ -178,7 +181,7 @@
     /* Size and position */
     width: 49%;
     height: 38px;
-    float: left;
+    float: right;
     position: relative;
 
 
@@ -220,6 +223,7 @@
 .form-2 input[type=submit]:active,
 .form-2 .facebook_button:active{
     top: 1px;
+
 
 }
 
