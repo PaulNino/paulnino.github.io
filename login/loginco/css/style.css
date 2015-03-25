@@ -80,8 +80,8 @@
     font-weight: bold;
     color: #bdb5aa;
     padding-bottom: 8px;
-    border-bottom: 1px solid #ffffff;
-    border-top: 2px solid #ffffff;
+    border-bottom: 1px solid #919191;
+    border-top: 1px solid #919191;
     padding-top: 8px;
     box-shadow: 0 1px 0 rgba(255,255,255,0.8);
 }
@@ -100,16 +100,16 @@
 }    
 
 .form-2 h1 .log-in {
-    color: #ffffff;
+    color: #919191;
     padding-right: 2px;
 }
 
 .form-2 h1 .eller {
-    color:#ffffff;
+    color:#919191;
 }
 
 .form-2 h1 .sign-up {
-    color: #ffffff;
+    color: #919191;
     padding-left: 2px;
 }
 
